@@ -1,0 +1,81 @@
+body {
+    color: white;
+}
+
+  
+nav {
+    background-color: #333;
+}
+  
+.active {
+    color: #ff2800 !important;
+    font-weight: bold;   /* #cf0202 */
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+i{
+    text-decoration: underline;
+}
+
+  .newsletter-container {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.newsletter-container h1 {
+    margin-bottom: 20px;
+}
+
+.newsletter-container p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.newsletter-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-container label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.newsletter-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.newsletter-container button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-container button:hover {
+    background-color: #ff2800;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+}
